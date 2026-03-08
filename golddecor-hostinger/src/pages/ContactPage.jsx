@@ -44,7 +44,7 @@ const ContactPage = () => {
                   <MapPin className="w-6 h-6 text-[#D4AF37] flex-shrink-0 mt-1" />
                   <div>
                     <h4 className="text-white font-semibold mb-1">Địa Chỉ</h4>
-                    <p className="text-gray-400">123 Đường Luxury, Quận 1<br />TP. Hồ Chí Minh, Việt Nam</p>
+                    <p className="text-gray-400">164/42 Nguyễn Hữu Tiến, Phường Tây Thạnh, Quận Tân Phú, <br />TP. Hồ Chí Minh, Việt Nam</p>
                   </div>
                 </div>
 
@@ -52,7 +52,7 @@ const ContactPage = () => {
                   <Phone className="w-6 h-6 text-[#D4AF37] flex-shrink-0 mt-1" />
                   <div>
                     <h4 className="text-white font-semibold mb-1">Điện Thoại</h4>
-                    <p className="text-gray-400">+84 (28) 123-4567</p>
+                    <p className="text-gray-400">(+84) 931968679</p>
                   </div>
                 </div>
 
@@ -60,7 +60,7 @@ const ContactPage = () => {
                   <Mail className="w-6 h-6 text-[#D4AF37] flex-shrink-0 mt-1" />
                   <div>
                     <h4 className="text-white font-semibold mb-1">Email</h4>
-                    <p className="text-gray-400">info@golddecor.com</p>
+                    <p className="text-gray-400">Gold.decor.nt@gmail.com</p>
                   </div>
                 </div>
               </div>

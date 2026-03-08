@@ -7,7 +7,7 @@ const ZaloContactButton = () => {
 
   const handleZaloClick = () => {
     // Open Zalo chat (using generic placeholder link for now as requested)
-    window.open('https://zalo.me/0123456789', '_blank');
+    window.open('https://zalo.me/0931968679', '_blank');
   };
 
   return (
