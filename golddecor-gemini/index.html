@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golddecor | Nội Thất Cao Cấp</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        mocha: {
+                            50: '#FDFCFB',
+                            100: '#F3EFE0',
+                            200: '#EADBC8',
+                            300: '#DAC0A3',
+                            400: '#A0937D',
+                            500: '#73605B',
+                            600: '#5F4B44',
+                            700: '#4A3F35',
+                            DEFAULT: '#73605B'
+                        },
+                        gold: {
+                            low: '#D4AF37',
+                            DEFAULT: '#C5A059'
+                        }
+                    },
+                    fontFamily: {
+                        serif: ['Playfair Display', 'serif'],
+                        sans: ['Montserrat', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #FDFCFB;
+            color: #4A3F35;
+        }
+        .page-transition-enter { opacity: 0; }
+        .page-transition-enter-active { opacity: 1; transition: opacity 300ms; }
+        .book-shadow {
+            box-shadow: 0 20px 50px rgba(0,0,0,0.15);
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.12.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
