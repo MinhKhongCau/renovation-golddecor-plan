@@ -40,7 +40,7 @@ const Header = () => {
             className="cursor-pointer"
           >
             <h1 className="text-2xl font-serif font-bold text-[#D4AF37]">
-              Golddecor
+              GOLDDECOR
             </h1>
           </motion.div>
 
